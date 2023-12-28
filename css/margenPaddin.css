@@ -1,0 +1,12 @@
+ h1{
+    color:brown;
+     /* margin-left: 100px;
+     margin-bottom: 200px; 
+     margin: 100px;
+     margin: 200px 100px;*/
+     margin: 100px 10px 20px 500px;
+} 
+p{
+    color:blue;
+    margin: 100px;
+}

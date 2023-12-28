@@ -1,0 +1,27 @@
+.nav-Enlace{
+    display: inline-block;
+    background:salmon;
+    color: antiquewhite;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+/* para q cuando pase el maus cambie de color */
+.nav-Enlace:hover{
+    background: cornflowerblue;
+}
+nav{
+    background:yellow;
+    padding: 10px;
+    display:flex;
+    justify-content: space-around;
+}
+@media(max-width:600px){
+    nav{
+    background:black;
+    flex-direction: column;
+  
+    }
+    .nav-Enlace{
+    margin: 10px 0;
+    }
+}
